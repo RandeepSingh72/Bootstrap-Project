@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(22, 22, 22);
+    font-style: italic;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.navbar-brand{
+    color: #6f42c1;
+    font-weight: bold;
+}
+.navbar-toggler{
+    outline: none;
+    box-shadow: none;
+    border-color: #6f42c1;
+}
+.navbar-toggler:hover,
+.navbar-toggler:active,
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+    border-color: #6f42c1;
+}
+@media (min-width: 992px) {
+ .navbar-expand-lg .navbar-nav .nav-link{
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+}
+h1,h2{
+    color: white;
+}
+.custombg{
+    background-image: url(./images/abstract.91fe92b5.jpg);
+    background-size: cover;
+}
+.form-label{
+    color: white;
+}
+.padding{
+    margin: 1.6rem;
+}
+.card{
+    border:none;
+}
+.cardd{
+    padding: 1rem;
+}
